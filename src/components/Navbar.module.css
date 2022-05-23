@@ -19,13 +19,14 @@
     list-style: none;
 }
 
-.list li{
+.list li a{
     padding: 15px;
     cursor: pointer;
     color: aliceblue;
     font-weight: bold;
+    text-decoration: none;
 }
 
-.list li:hover{
+.list li a:hover{
     color: rgb(194, 200, 205);
 }

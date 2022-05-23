@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./Navbar.module.css"
+import { Link } from 'react-router-dom'
 import logo from "../images/kk.jpeg"
 
 
@@ -8,9 +9,9 @@ function Navbar() {
         <header className={styles.header}>
             <div className={styles.listContainer}>
                 <ul className={styles.list}>
-                    <li>Home Page</li>
-                    <li>Products</li>
-                    <li>About Us</li>
+                    <li> <Link to="/">Home Page</Link></li>
+                    <li> <Link to="/Products">Products</Link></li>
+                    <li> <Link to="/Products/us">About Us</Link></li>
                 </ul>
             </div>
             <div className={styles.logoContainer}>

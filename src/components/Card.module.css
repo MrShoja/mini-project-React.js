@@ -1,38 +1,69 @@
-.container img{
-    height: 300px;
+.container img {
+    height: 200px;
     width: 300px;
-    margin: 10px;
     border-radius: 10px;
 }
 
-.container{
-    padding-bottom: 60px;
-    margin: 10px;
-    padding: 10px;
+.container {
+    border: 1px solid rgb(234, 229, 229);
+    width: 300px;
+    margin: 17px;
     border-radius: 10px;
+    background: #fffefe;
     overflow: hidden;
+    box-shadow: 10px 10px 13px rgb(125, 122, 122);
     transition: 0.20s ease-in-out;
 }
 
-.container:hover{
-    box-shadow: 5px 5px 10px rgb(184, 184, 184);
-    margin: 10px;
-    padding: 10px;
+.container:hover {
+    box-shadow: 40px 40px 30px rgb(105, 96, 96);
+    margin: 17px;
     overflow: hidden;
-    background: #ececec;
     border-radius: 10px;
 }
 
-.container h3{
+.container h3 {
     color: #696969;
     margin: 30px 20px 20px;
 }
 
-.container i{
+.container i {
     margin: 0px 25px 20px;
-    background: rgb(10, 145, 46 );
-    width: fit-content;
-    padding: 5px;
+    background: rgb(10, 145, 46);
+    min-width: fit-content;
+    padding: 7px;
     border-radius: 5px;
     color: #fff;
+}
+
+.counter {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.counter span {
+    background: rgb(17, 124, 255);
+    width: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.counter img {
+    width: 30px;
+    height: 20px;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    background: rgb(17, 124, 255);
+}
+
+.deactive {
+    background: rgb(17, 124, 255);
+    opacity: 0.6;
 }
